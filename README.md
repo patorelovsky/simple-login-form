@@ -1,6 +1,40 @@
-# Getting Started with Create React App
+# React Login Form
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple React project featuring a login form with TypeScript, Axios, and integration with Material UI. The project includes GitHub Actions for code quality checks using ESLint and Prettier.
+
+## Project Overview
+
+The primary goal of this project is to create a user-friendly login form in React, ensuring type safety, proper validation, and integration with Material UI components. The application utilizes TypeScript for enhanced type checking, Axios for handling HTTP requests, and GitHub Actions for continuous integration.
+
+## Technology Stack
+
+- React
+- TypeScript
+- Axios
+- Material UI
+- React Hook Form
+- ESLint
+- Prettier
+
+## Functional Requirements
+
+The login form should include the following features:
+
+- Two input fields: email and password.
+- Validation for both fields:
+  - Email: Must be in a valid email format.
+  - Password: Implement basic requirements, e.g., minimum length.
+- Upon form submission, type-safe values should be displayed in the console or on the screen.
+
+## Technical Requirements
+
+- Use Create React App for the project structure.
+- Implement TypeScript for type safety.
+- Utilize Axios for handling HTTP requests.
+- Configure GitHub Actions for automated code quality checks.
+- Set up ESLint and Prettier for code consistency.
+- Use React Hook Form for form management.
+- Utilize Material UI components for the user interface.
 
 ## Available Scripts
 
